@@ -1,10 +1,10 @@
 import pickle
 import streamlit as st
 
-with open('D:\Studi Independen MojadiApp\Tugas Akhir MojadiApp\AIR QUALITY\model_file.pkl', 'rb') as model_file:
+with open('model_file.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
-with open('AIR QUALITY/scaler.pkl', 'rb') as scaler_file:
+with open('scaler.pkl', 'rb') as scaler_file:
     scaler = pickle.load(scaler_file)
     
 #judul web
