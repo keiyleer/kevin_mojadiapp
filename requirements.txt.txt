@@ -1,5 +1,6 @@
 numpy==1.26.4
 pandas==2.2.2
+tensorflow==2.16.1
 pip==24.0
 streamlit
 pickle 
